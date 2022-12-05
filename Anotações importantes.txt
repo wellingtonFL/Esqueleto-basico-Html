@@ -1,0 +1,58 @@
+Introdução a criação de Websites com HTML5 e CSS3
+      
+       HTML5
+ 
+1- História e estrutura básica
+
+2- Semântica
+
+3-principais elementos HTML 
+
+
+
+ ESTRURURA BÁSICA
+
+<!doctype html>  - não é um elemento html, ele apenas diz ao navegador oque vc esta escrevendo.
+<html> - abertura de tag, tudo que visa o conteúdo do site
+<head> - abertura , informações que o navegador necessita.
+ex:
+<meta> - 
+<title></title> titulo 
+
+</head>- fechamento da tag.
+
+<body>- abertura/aonde eestara o conteudo do site.
+</body> fechamento.
+</html>-fechamento do html.
+
+ semântica-
+ 
+
+<section>representa uma seção generica de conteudo ex: lista de artigos
+<header> pode ser o cabecalho da pagina ou parte da pagina.
+<article> conteúdo relevante, dentro da pagina. ex: artigo de um blog
+<aside> conteudo relacionado ao conteudo principal da pagina. ex: biografia de um autor.
+<footer> rodape da pagina ou de parte da pagina.
+<h1>-<h6> importancia de um tiitulo dentro da pagina. Regra só pode haver um h1 por pagina.
+
+
+ Textos e links TAGS
+
+<H1>Títulos da página</h1>
+<h2> Título seção </h2>
+<h3>Título de artigo</h3>
+<p> Conteúdo do artigo.</p>  testos maiores.
+
+Textos e links
+<a>link</a>
+
+<a href="site e tanana">linkedin</a>
+<a href="site e tanana"> E-mail</a>
+<a target="_blank">link</a> abrir em um novo site.
+
+Imagena
+<img src="img/avatar.jpg">    src-é obrigatorio pois ele mostra o caminho que o navegador tem que fazer.
+
+<img alt="avatar">    Alt- é usado para mostrar aos usuarios oque a quela imagem significa.
+
+LISTA <ul> / <ol>  / <li>.

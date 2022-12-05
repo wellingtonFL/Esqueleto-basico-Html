@@ -1,0 +1,83 @@
+
+
+
+/* ESTILOS GERAIS*/
+body,figure,img,div,header,nav,main,ul,li,a,p,section,article,h1,h2,footer{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        outline: none;
+}
+  figcaption{
+    display:none;
+  }
+  img{
+    max-width: 1200px;
+  }
+
+/* ESTILO DO CABEÇALHO*/
+.cabecalho{}
+
+/* ESTILO DO LOGO*/
+.cabecalho .cabecalho__logo{
+}
+.cabecalho .cabecalho__logo img{}
+
+/* ESTILO DO MENU*/
+.cabecalho.cabecalho__menu{}
+.cabecalho .cabecalho__menu ul{}
+.cabecalho .cabecalho__menu li{}
+.cabecalho .cabecalho__menu a{}
+
+/* ESTILO ÁREA DE CONFIGURAÇÃO*/
+.cabecalho .cabecalho__dedestaque{}
+.cabecalho .cabecalho__dedestaque ul{}
+.cabecalho .cabecalho__dedestaque li{}
+.cabecalho .cabecalho__dedestaque a{}
+
+/* ESTILO CONTEÚDO PRINCIPAL*/
+main{}
+
+
+/* ESTILO SEÇÃO DESTAQUE*/
+.secaodestaque.secaoDestaque.secaoDestaque__imagemdestaque{}
+.secaoDestaque__imagemDestaque img{
+    
+}
+.secaoDestaque.secaoDestaquesecao__destaquesdomes h1{}
+.secaoDestaque.secaoDestaquesecao__destaquesdomes p{}
+
+.secaoDestaque.secaodestaques__linksdenavegacao{}
+
+/* 1 roleta de Lanches*/
+.SecaoRoletadeanche{}
+.SecaoRoletadeanche.secaodestaque.secaoDestaque.secaoDestaque__imagemdestaque{}
+.SecaoRoletadeanche h2{}
+.SecaoRoletadeanche.umroletadecomidas{}
+.SecaoRoletadeanche.SecaoRoletadeanche.umroletadecomidas ul{
+}
+.SecaoRoletadeanche.SecaoRoletadeanche.umroletadecomidas li{}
+.SecaoRoletadeanche.SecaoRoletadeanche.umroletadecomidas li figure{}
+.SecaoRoletadeanche.SecaoRoletadeanche.umroletadecomidas li img{ 
+  width: 150px;
+	display: inline-block;
+}
+
+/*  ESTILO RODAPÉ*/
+.rodape{}
+.rodape.rodape.rodape__midiassociais {}
+.rodape.rodape.rodape__midiassociais ul{}
+.rodape.rodape.rodape__midiassociais ul li{}
+.rodape.rodape.rodape__midiassociais ul a{}
+.rodape.rodape.rodape__midiassociais ul img{}
+
+.rodape.rodape__link__codigos{}
+
+.rodape p{}
+
+
+
+
+
